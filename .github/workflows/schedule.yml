@@ -2,7 +2,7 @@ name: Print time every 2 minutes
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   hello-world:
