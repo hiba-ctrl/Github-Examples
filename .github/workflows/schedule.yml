@@ -1,9 +1,12 @@
+name: Print time every 2 minutes
+
 on:
   schedule:
     - cron: '*/2 * * * *'
+
 jobs:
-  hello-world: 
+  hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: echo current time
+      - name: Echo current time
         run: echo "The current server time is $(date)"
